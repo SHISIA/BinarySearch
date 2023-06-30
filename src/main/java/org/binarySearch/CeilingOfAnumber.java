@@ -7,7 +7,7 @@ package org.binarySearch;
 
 public class CeilingOfAnumber {
     public static int getCeil(int[] nums,int target){
-        if (target>=nums[nums.length-1]){
+        if (target>nums[nums.length-1]){
             return -1;
         }
         int start=0;
@@ -16,14 +16,16 @@ public class CeilingOfAnumber {
             int mid = start + (end - start)/2;
             if(target<nums[mid]){
                 end= mid -1;
-            }else {
+            }else if (target>nums[mid]){
                 start = mid + 1;
+            }else {
+                return mid;
             }
         }
         return start;
     }
 
     public static void main(String[] args) {
-        System.out.println(getCeil(new int[]{1,3,4,5,6,9,10,19,23},27));
+        System.out.println(getCeil(new int[]{1,3,4,5,6,9,10,19,23},2));
     }
 }
