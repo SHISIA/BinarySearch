@@ -1,7 +1,7 @@
-# Binary GYM
-## _The Complete Binary Search Course, By Kunal Kushwaha_
+# <span style="color:white">Binary GYM</span>
+## _The Complete Binary Search Course, By_ <span style="color:orange">Kunal Kushwaha</span> _and_ <span style="color:orange">NebuCodeNezzar</span>
 
-![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)
+![N|Solid](src/main/resources/java_button_icon_151928.png)
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
@@ -13,7 +13,7 @@ This resource archive is a collection of binary search problems to be solved  du
 
 ## Features
 
-- All you need for a Java DS and algorithm question
+- All you need for a Java Binary Search DS and algorithm question
 ## License
 MIT
 
