@@ -48,7 +48,7 @@ public class PivotPointOnRotatedArray {
     }
 
     public static void main(String[] args) {
-        System.out.println(pivotPoint(new int[]{4,5,6,7,0,1,2},19));
+        System.out.println(pivotPoint(new int[]{-2,-1,-1,1,2,3},19));
     }
 
 }
