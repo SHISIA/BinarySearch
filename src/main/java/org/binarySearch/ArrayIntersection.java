@@ -90,7 +90,16 @@ public class ArrayIntersection {
         }
 
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(intersection(new int[]{1, 2, 2, 1}, new int[]{2, 2})));
-        System.out.println(Arrays.toString(intersect(new int[]{1, 2, 2, 1}, new int[]{2, 2})));
+//        System.out.println(Arrays.toString(intersection(new int[]{1, 2, 2, 1}, new int[]{2, 2})));
+//        System.out.println(Arrays.toString(intersect(new int[]{4,6,9}, new int[]{4,4,8,9,9})));
+        testArray(new int[]{4,6,9,4,5}, new int[]{4,4});
+    }
+
+    public static void testArray(int[] arr,int[] arr1){
+        for (int i=0;i<arr.length;i++){
+            for (int j=0;j<arr1.length;j++){
+                System.out.println(arr[i]+" "+arr1[j]);
+            }
+        }
     }
 }
